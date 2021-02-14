@@ -11,7 +11,7 @@ public class BookController {
 	private BookDAO bd = new BookDAO();
 	
 	public void makeFile() {
-		File f = new File("Book2.txt");
+		File f = new File("Book3.txt");
 		try {
 			if (!f.exists()) f.createNewFile();
 			else System.out.println("이미 존재하는 파일입니다.");

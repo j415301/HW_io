@@ -22,7 +22,7 @@ public class Book implements Serializable{
 	}
 
 	public Book(String title, String author, int price, Calendar date, double discount) {
-		super();
+		
 		this.title = title;
 		this.author = author;
 		this.price = price;
